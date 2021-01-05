@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: Verdana, Georgia, Arial, sans-serif;
+}
+
+.logo-wrapper {
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 30px;
+}
+
+.logo-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav li:nth-of-type(2n+1) a {
+    /* color: red; */
+}
+
+nav li {
+    display: inline-block;
+    width: 100px;
+}
+
+main {
+    width: 60%;
+    margin: 100px auto 0;
+}
+
+h1, p {
+    color: #fff;
+}
+
+h1 div {
+    text-align: center;
+}
+
+h1 div:nth-child(2) {
+    font-family: Roboto;
+    font-weight: 100;
+}
+
+.divider {
+    width: 200px;
+    border-bottom: 2px solid #fff;
+    margin: 0 auto;
+}
+
+main p {
+    width: 40%;
+    text-align: center;
+    font-family: cursive;
+    margin: 50px auto;
+}
+
+.example-flex {
+    border: 2px solid red;
+    display: flex;
+    justify-content: flex-end;
+    height: 200px;
+    align-items: center
+}
+
+.example-flex  li {
+    width: 100px;
+    text-align: center;
+}
